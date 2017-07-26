@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name - Chintan Patel
  * Student # 300622893
  * Date - July 25/2017
- * version - 0.2 - Added Override ToString method
+ * version - 0.3 - Planet class declared as a public
  */
 namespace Assignment4_COMP123
 {
@@ -93,7 +93,7 @@ namespace Assignment4_COMP123
         }
 
         /* 1c. Constructor Method*/
-        Planet(string name,double diameter,double mass)
+       public Planet(string name,double diameter,double mass)
         {
             this._name = name;
             this._diameter = diameter;
