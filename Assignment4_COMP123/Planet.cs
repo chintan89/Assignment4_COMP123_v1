@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 /*
  * Name - Chintan Patel
  * Student # 300622893
- * Date - July 16/2017
- * version - 0.1
+ * Date - July 25/2017
+ * version - 0.2 - Added Override ToString method
  */
 namespace Assignment4_COMP123
 {
@@ -100,8 +100,11 @@ namespace Assignment4_COMP123
             this._mass = mass;
         }
         /* 1d. override ToString Method outputs Name, Diameter and Mass to he console*/
-        //public override string ToString()
-        //{
-        //}
+        public override string ToString()
+        {
+            string planetInfo = "Name:"+ this._name + "\nDiameter:" + this._diameter + " thousands of kilometers \nMass: " + this._mass + " x 10^24 kilograms\n";
+            Console.WriteLine(planetInfo);
+            return planetInfo;
+        }
     }
 }
