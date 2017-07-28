@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace Assignment4_COMP123
 {
     
-    class Planet
+   abstract class Planet
     {
         /* 1a.Private instant variables*/
         private double _diameter;
