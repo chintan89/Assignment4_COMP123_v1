@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 /*
  * Name - Chintan Patel
  * Student # 300622893
- * Date - July 16/2017
- * version - 0.1 Create Method Header
+ * Date - July 27/2017
+ * version - 0.2 Modified HasMoons interaface that returns a bool data
  */
 namespace Assignment4_COMP123
 {
     interface IHasMoons
     {
         /* 4.Create Method Header HasMoons that returns bool data*/
-        //bool HasMoons;
+        bool HasMoons();
     }
 }
